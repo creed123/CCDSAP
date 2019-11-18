@@ -1,2 +1,2 @@
-# Coe solutions
-Some solutions to the code chef ccdap exam
+# CCDAP
+Some quick solutions written for interesting problems at the code chef certification exam. 
