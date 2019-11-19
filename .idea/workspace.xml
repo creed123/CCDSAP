@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7c300b7f-57d1-484a-b3fd-60f5a27be64b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codechef/IpcTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codechef/IpcTrain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codechef/Anumula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codechef/Anumula.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +35,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Anumula">
+  <component name="RunManager" selected="Application.KSubSum">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -58,6 +58,20 @@
     </configuration>
     <configuration name="IpcTrain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codechef.IpcTrain" />
+      <module name="Code solutions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codechef.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KSubSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codechef.KSubSum" />
       <module name="Code solutions" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -104,9 +118,11 @@
     <list>
       <item itemvalue="Application.IpcTrain" />
       <item itemvalue="Application.Anumula" />
+      <item itemvalue="Application.KSubSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KSubSum" />
         <item itemvalue="Application.Anumula" />
         <item itemvalue="Application.IpcTrain" />
       </list>
@@ -146,8 +162,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/codechef/Anumula.java</url>
-          <line>14</line>
+          <line>18</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/codechef/KSubSum.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/codechef/KSubSum.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

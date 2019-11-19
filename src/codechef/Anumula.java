@@ -4,7 +4,10 @@ import java.util.*;
 public class Anumula {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Integer T = scanner.nextInt();
+        Integer T = 0;
+        if (scanner.hasNextInt()) {
+            T = scanner.nextInt();
+        }
         while (T > 0) {
             Integer N = scanner.nextInt();
             ArrayList<Integer> al = new ArrayList<>();
@@ -12,6 +15,7 @@ public class Anumula {
                 Integer num = scanner.nextInt();
                 al.add(num);
             }
+            al.sort(Comparator.naturalOrder());
             Collections.sort(al, new Comparator<Integer>() {
                 @Override
                 public int compare(Integer o1, Integer o2) {
