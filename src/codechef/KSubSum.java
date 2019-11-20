@@ -6,25 +6,24 @@ public class KSubSum {
     static Integer K1;
     static Integer K2;
     static Integer K3;
-    static PriorityQueue<Integer> pq1 = new PriorityQueue<>(Integer::compareTo);
-    static PriorityQueue<Integer> pq2 = new PriorityQueue<>(Integer::compareTo);
-    static PriorityQueue<Integer> pq3 = new PriorityQueue<>(Integer::compareTo);
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Integer T = scanner.nextInt();
+        Integer T = 0;
+        if (scanner.hasNextInt()) {
+            T = scanner.nextInt();
+        }
         while (T > 0 ) {
             Integer N = scanner.nextInt();
             K1 = scanner.nextInt();
             K2 = scanner.nextInt();
             K3 = scanner.nextInt();
+            Integer K = Math.max(Math.max(K1, K2), K3);
             List<Integer> list = new ArrayList<>();
             while (N > 0) {
                 list.add(scanner.nextInt());
                 N --;
             }
-            pq1.clear();
-            pq2.clear();
-            pq3.clear();
+            PriorityQueue<Integer> pq = new PriorityQueue<>();
             List<Integer> prefix = new ArrayList<>();
             Integer sum = 0;
             prefix.add(0);
@@ -34,12 +33,12 @@ public class KSubSum {
             }
             for (int i = 1; i < prefix.size(); i++) {
                 for (int j = 0; j < i; j++) {
-                    insertIntoQueue(pq1, K1, prefix.get(i) - prefix.get(j));
-                    insertIntoQueue(pq2, K2, prefix.get(i) - prefix.get(j));
-                    insertIntoQueue(pq3, K3, prefix.get(i) - prefix.get(j));
+                    insertIntoQueue(pq, K, prefix.get(i) - prefix.get(j));
                 }
             }
-            System.out.println(pq1.peek() + " " + pq2.peek() + " " + pq3.peek());
+            List<Integer> nums = new ArrayList<>(pq);
+            nums.sort(Comparator.reverseOrder());
+            System.out.println(nums.get(K1-1) + " " + nums.get(K2-1) + " " + nums.get(K3-1));
             T --;
         }
     }
