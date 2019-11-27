@@ -35,7 +35,7 @@ public class Anumula {
                         globalSum.add(values.get(j) + al.get(i));
                     }
                     values.add(al.get(i));
-                    sum.removeAll(sum);
+                    sum.clear();
                     sum.addAll(globalSum);
                 } else {
                     for (int j = 0; j < sum.size(); j++) {

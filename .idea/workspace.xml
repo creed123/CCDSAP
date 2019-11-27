@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c300b7f-57d1-484a-b3fd-60f5a27be64b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/codechef/DishOwn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/CapiMove.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codechef/Anumula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codechef/Anumula.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,32 +24,25 @@
   </component>
   <component name="ProjectId" id="1TpGB7oDvorbj8AyKzDRGP4Te3H" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Wierdfn">
+  <component name="RunManager" selected="Application.DishOwn">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Anumula" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codechef.Anumula" />
+    <configuration name="CapiMove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review.CapiMove" />
       <module name="Code solutions" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codechef.*" />
+          <option name="PATTERN" value="review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,8 +50,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KSubSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codechef.KSubSum" />
+    <configuration name="DishOwn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codechef.DishOwn" />
       <module name="Code solutions" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -75,7 +70,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codechef.*" />
+          <option name="PATTERN" value="review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,7 +84,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codechef.*" />
+          <option name="PATTERN" value="review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,21 +138,33 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Anumula" />
-      <item itemvalue="Application.KSubSum" />
       <item itemvalue="Application.RRating" />
       <item itemvalue="Application.TJSec" />
       <item itemvalue="Application.Wierdfn" />
+      <item itemvalue="Application.CapiMove" />
+      <item itemvalue="Application.DishOwn" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DishOwn" />
+        <item itemvalue="Application.CapiMove" />
         <item itemvalue="Application.Wierdfn" />
         <item itemvalue="Application.TJSec" />
         <item itemvalue="Application.RRating" />
-        <item itemvalue="Application.KSubSum" />
-        <item itemvalue="Application.Anumula" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -177,11 +184,59 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="529" y="110" key="#xdebugger.evaluate" timestamp="1574857298503">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="529" y="110" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1574857298503" />
+    <state width="1238" height="262" key="GridCell.Tab.0.bottom" timestamp="1574861201152">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="262" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1574861201152" />
+    <state width="1238" height="262" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1574857426129" />
+    <state width="1238" height="262" key="GridCell.Tab.0.center" timestamp="1574861201149">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="262" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1574861201149" />
+    <state width="1238" height="262" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1574857426127" />
+    <state width="1238" height="262" key="GridCell.Tab.0.left" timestamp="1574861201148">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="262" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1574861201148" />
+    <state width="1238" height="262" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1574857426125" />
+    <state width="1238" height="262" key="GridCell.Tab.0.right" timestamp="1574861201151">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="262" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1574861201151" />
+    <state width="1238" height="262" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1574857426128" />
+    <state width="1238" height="262" key="GridCell.Tab.1.bottom" timestamp="1574861200847">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="262" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1574861200847" />
+    <state width="1238" height="262" key="GridCell.Tab.1.center" timestamp="1574861200846">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="262" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1574861200846" />
+    <state width="1238" height="262" key="GridCell.Tab.1.left" timestamp="1574861200845">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="262" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1574861200845" />
+    <state width="1238" height="262" key="GridCell.Tab.1.right" timestamp="1574861200846">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="262" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1574861200846" />
+    <state x="319" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1574853840068">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="319" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1574853840068" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -221,6 +276,31 @@
           <url>file://$PROJECT_DIR$/src/spoj/Wierdfn.java</url>
           <line>20</line>
           <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/review/CapiMove.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/review/CapiMove.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/codechef/DishOwn.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/codechef/DishOwn.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/codechef/DishOwn.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
