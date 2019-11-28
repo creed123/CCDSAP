@@ -25,7 +25,10 @@ public class BigOf1 {
                 Integer b = scanner.nextInt();
                 Integer root1 = findRoot(a - 1, list);
                 Integer root2 = findRoot(b -1, list);
-                if (size.get(root1) > size.get(root2)) {
+                if (root1.equals(root2)) {
+
+                }
+                else if (size.get(root1) > size.get(root2)) {
                     list.set(root2, root1);
                     size.set(root1, size.get(root1) + size.get(root2));
                 } else {
