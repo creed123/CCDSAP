@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7c300b7f-57d1-484a-b3fd-60f5a27be64b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codechef/Firesec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codechef/Firesec.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,49 +194,49 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="529" y="110" key="#xdebugger.evaluate" timestamp="1574927643276">
+    <state x="529" y="110" key="#xdebugger.evaluate" timestamp="1574934258082">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="529" y="110" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1574927643276" />
-    <state width="615" height="262" key="GridCell.Tab.0.bottom" timestamp="1574930672891">
+    <state x="529" y="110" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1574934258082" />
+    <state width="615" height="262" key="GridCell.Tab.0.bottom" timestamp="1574937546765">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1574930672891" />
+    <state width="615" height="262" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1574937546765" />
     <state width="1238" height="262" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1574927112905" />
-    <state width="615" height="262" key="GridCell.Tab.0.center" timestamp="1574930672889">
+    <state width="615" height="262" key="GridCell.Tab.0.center" timestamp="1574937546763">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1574930672889" />
+    <state width="615" height="262" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1574937546763" />
     <state width="1238" height="262" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1574927112900" />
-    <state width="615" height="262" key="GridCell.Tab.0.left" timestamp="1574930672888">
+    <state width="615" height="262" key="GridCell.Tab.0.left" timestamp="1574937546761">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1574930672888" />
+    <state width="615" height="262" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1574937546761" />
     <state width="1238" height="262" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1574927112898" />
-    <state width="615" height="262" key="GridCell.Tab.0.right" timestamp="1574930672890">
+    <state width="615" height="262" key="GridCell.Tab.0.right" timestamp="1574937546764">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1574930672890" />
+    <state width="615" height="262" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1574937546764" />
     <state width="1238" height="262" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1574927112903" />
-    <state width="615" height="262" key="GridCell.Tab.1.bottom" timestamp="1574930672895">
+    <state width="615" height="262" key="GridCell.Tab.1.bottom" timestamp="1574937546601">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1574930672895" />
+    <state width="615" height="262" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1574937546601" />
     <state width="1238" height="262" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1574927113135" />
-    <state width="615" height="262" key="GridCell.Tab.1.center" timestamp="1574930672893">
+    <state width="615" height="262" key="GridCell.Tab.1.center" timestamp="1574937546599">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1574930672893" />
+    <state width="615" height="262" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1574937546599" />
     <state width="1238" height="262" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1574927113134" />
-    <state width="615" height="262" key="GridCell.Tab.1.left" timestamp="1574930672892">
+    <state width="615" height="262" key="GridCell.Tab.1.left" timestamp="1574937546598">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1574930672892" />
+    <state width="615" height="262" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1574937546598" />
     <state width="1238" height="262" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1574927113133" />
-    <state width="615" height="262" key="GridCell.Tab.1.right" timestamp="1574930672894">
+    <state width="615" height="262" key="GridCell.Tab.1.right" timestamp="1574937546600">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1574930672894" />
+    <state width="615" height="262" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1574937546600" />
     <state width="1238" height="262" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1574927113134" />
     <state x="319" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1574853840068">
       <screen x="0" y="0" width="1280" height="800" />
@@ -307,13 +308,22 @@
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <condition expression="i==1" language="JAVA" />
           <url>file://$PROJECT_DIR$/src/codechef/Firesec.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="52" />
+          <line>12</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/codechef/Firesec.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Code_solutions$Firesec.ic" NAME="Firesec Coverage Results" MODIFIED="1574937524511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>codechef.*</FILTER>
+    </SUITE>
   </component>
   <component name="masterDetails">
     <states>
