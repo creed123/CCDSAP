@@ -246,6 +246,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="319" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1574853840068" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1574940474504">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1574940474504" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
