@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c300b7f-57d1-484a-b3fd-60f5a27be64b" name="Default" comment="" />
+    <list default="true" id="7c300b7f-57d1-484a-b3fd-60f5a27be64b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codechef/BigOf1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codechef/BigOf1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -235,6 +238,10 @@
     </state>
     <state width="615" height="262" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1574937895680" />
     <state width="1238" height="262" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1574927113134" />
+    <state x="286" y="101" key="NewModule_or_Project.wizard" timestamp="1574939294096">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="286" y="101" key="NewModule_or_Project.wizard/0.0.1280.800@0.0.1280.800" timestamp="1574939294096" />
     <state x="319" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1574853840068">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

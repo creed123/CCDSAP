@@ -1,6 +1,7 @@
 package codechef;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -18,7 +19,7 @@ public class BigOf1 {
             List<Integer> size = new ArrayList<>();
             for (int j = 0; j <N ; j++) {
                 list.add(j);
-                size.add(j, 1);
+                size.add(1);
             }
             for (int j = 0; j < C ; j++) {
                 Integer a = scanner.nextInt();
