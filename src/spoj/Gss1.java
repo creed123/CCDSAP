@@ -29,7 +29,7 @@ public class Gss1 {
             return new SegmentNode(null, null, list.get(end), list.get(end), list.get(end));
         }
         SegmentNode left = buildTree(list, start, (start + end)/2);
-        SegmentNode right = buildTree(list, (start + end)/2, end);
+        SegmentNode right = buildTree(list, (start + end)/2 + 1, end);
         return new SegmentNode(right, left, Math.max(left.maxPrefixSum, left.sum + right.maxPrefixSum),
                 Math.max(right.maxSuffixSum, left.maxSuffixSum + right.sum), left.sum + right.sum);
     }
@@ -40,8 +40,8 @@ public class Gss1 {
         }
         if (idx1 > (start + end)/2) {
             return query(current.right, (start + end)/2 + 1, end, idx1, idx2);
-        } if (idx2 < (start + end)/2) {
-            return query(current.left, start, (start + end) / 2, idx2, idx1);
+        } if (idx2 <= (start + end)/2) {
+            return query(current.left, start, (start + end) / 2, idx1, idx2);
         }
         SegmentNode left = query(current.left, start, (start + end) / 2, idx1, (start + end) / 2);
         SegmentNode right = query(current.right, (start + end)/2 + 1, end, (start + end) / 2 + 1, idx2);
