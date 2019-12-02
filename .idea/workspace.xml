@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7c300b7f-57d1-484a-b3fd-60f5a27be64b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spoj/Gss1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spoj/Gss1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +30,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
-  <component name="RunManager" selected="Application.Gss1">
+  <component name="RunManager" selected="Application.IOPC1207">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -40,20 +39,6 @@
     </configuration>
     <configuration name="BigOf1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codechef.BigOf1" />
-      <module name="Code solutions" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spoj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DishOwn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codechef.DishOwn" />
       <module name="Code solutions" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -82,6 +67,20 @@
     </configuration>
     <configuration name="Gss1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spoj.Gss1" />
+      <module name="Code solutions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spoj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOPC1207" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spoj.IOPC1207" />
       <module name="Code solutions" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -134,19 +133,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DishOwn" />
       <item itemvalue="Application.BigOf1" />
       <item itemvalue="Application.Firesec" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Gss1" />
+      <item itemvalue="Application.IOPC1207" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IOPC1207" />
         <item itemvalue="Application.Gss1" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Firesec" />
         <item itemvalue="Application.BigOf1" />
-        <item itemvalue="Application.DishOwn" />
       </list>
     </recent_temporary>
   </component>
@@ -189,58 +188,58 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1575273637505">
+    <state x="453" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1575288539744">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1575273637505" />
+    <state x="453" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1575288539744" />
     <state x="547" y="336" key="#debugger.expression.dialog" timestamp="1575283512965">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="547" y="336" key="#debugger.expression.dialog/0.0.1280.800@0.0.1280.800" timestamp="1575283512965" />
-    <state x="529" y="110" key="#xdebugger.evaluate" timestamp="1575283649916">
+    <state x="529" y="110" key="#xdebugger.evaluate" timestamp="1575290660806">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="529" y="110" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1575283649916" />
-    <state width="615" height="262" key="GridCell.Tab.0.bottom" timestamp="1575284774878">
+    <state x="529" y="110" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1575290660806" />
+    <state width="615" height="262" key="GridCell.Tab.0.bottom" timestamp="1575290668531">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1575284774878" />
-    <state width="615" height="262" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1575283730446" />
-    <state width="615" height="262" key="GridCell.Tab.0.center" timestamp="1575284774877">
+    <state width="615" height="262" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1575290668531" />
+    <state width="615" height="262" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1575290399126" />
+    <state width="615" height="262" key="GridCell.Tab.0.center" timestamp="1575290668529">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1575284774877" />
-    <state width="615" height="262" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1575283730438" />
-    <state width="615" height="262" key="GridCell.Tab.0.left" timestamp="1575284774876">
+    <state width="615" height="262" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1575290668529" />
+    <state width="615" height="262" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1575290399124" />
+    <state width="615" height="262" key="GridCell.Tab.0.left" timestamp="1575290668529">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1575284774876" />
-    <state width="615" height="262" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1575283730435" />
-    <state width="615" height="262" key="GridCell.Tab.0.right" timestamp="1575284774878">
+    <state width="615" height="262" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1575290668529" />
+    <state width="615" height="262" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1575290399123" />
+    <state width="615" height="262" key="GridCell.Tab.0.right" timestamp="1575290668530">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1575284774878" />
-    <state width="615" height="262" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1575283730444" />
-    <state width="615" height="262" key="GridCell.Tab.1.bottom" timestamp="1575284774881">
+    <state width="615" height="262" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1575290668530" />
+    <state width="615" height="262" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1575290399125" />
+    <state width="615" height="262" key="GridCell.Tab.1.bottom" timestamp="1575290565249">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1575284774881" />
-    <state width="615" height="262" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1575283730021" />
-    <state width="615" height="262" key="GridCell.Tab.1.center" timestamp="1575284774880">
+    <state width="615" height="262" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1575290565249" />
+    <state width="615" height="262" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1575290398993" />
+    <state width="615" height="262" key="GridCell.Tab.1.center" timestamp="1575290565247">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1575284774880" />
-    <state width="615" height="262" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1575283730018" />
-    <state width="615" height="262" key="GridCell.Tab.1.left" timestamp="1575284774879">
+    <state width="615" height="262" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1575290565247" />
+    <state width="615" height="262" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1575290398992" />
+    <state width="615" height="262" key="GridCell.Tab.1.left" timestamp="1575290565246">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1575284774879" />
-    <state width="615" height="262" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1575283730015" />
-    <state width="615" height="262" key="GridCell.Tab.1.right" timestamp="1575284774881">
+    <state width="615" height="262" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1575290565246" />
+    <state width="615" height="262" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1575290398991" />
+    <state width="615" height="262" key="GridCell.Tab.1.right" timestamp="1575290565248">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1575284774881" />
-    <state width="615" height="262" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1575283730020" />
+    <state width="615" height="262" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1575290565248" />
+    <state width="615" height="262" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1575290398993" />
     <state x="286" y="101" key="NewModule_or_Project.wizard" timestamp="1574939294096">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -249,14 +248,18 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="319" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1574853840068" />
+    <state x="298" y="22" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1575288715946">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="298" y="22" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.800@0.0.1280.800" timestamp="1575288715946" />
     <state x="378" y="160" key="extract.method.dialog" timestamp="1575279108158">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="160" key="extract.method.dialog/0.0.1280.800@0.0.1280.800" timestamp="1575279108158" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1575273633875">
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1575288536036">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1575273633875" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1575288536036" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -346,6 +349,21 @@
           <url>file://$PROJECT_DIR$/src/spoj/Gss1.java</url>
           <line>37</line>
           <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/spoj/IOPC1207.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/spoj/IOPC1207.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/spoj/IOPC1207.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
