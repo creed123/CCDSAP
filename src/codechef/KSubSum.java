@@ -6,13 +6,14 @@ public class KSubSum {
     static Integer K1;
     static Integer K2;
     static Integer K3;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Integer T = 0;
         if (scanner.hasNextInt()) {
             T = scanner.nextInt();
         }
-        while (T > 0 ) {
+        while (T > 0) {
             Integer N = scanner.nextInt();
             K1 = scanner.nextInt();
             K2 = scanner.nextInt();
@@ -21,7 +22,7 @@ public class KSubSum {
             List<Integer> list = new ArrayList<>();
             while (N > 0) {
                 list.add(scanner.nextInt());
-                N --;
+                N--;
             }
             PriorityQueue<Integer> pq = new PriorityQueue<>();
             List<Integer> prefix = new ArrayList<>();
@@ -38,8 +39,8 @@ public class KSubSum {
             }
             List<Integer> nums = new ArrayList<>(pq);
             nums.sort(Comparator.reverseOrder());
-            System.out.println(nums.get(K1-1) + " " + nums.get(K2-1) + " " + nums.get(K3-1));
-            T --;
+            System.out.println(nums.get(K1 - 1) + " " + nums.get(K2 - 1) + " " + nums.get(K3 - 1));
+            T--;
         }
     }
 
@@ -53,5 +54,4 @@ public class KSubSum {
             }
         }
     }
-
 }
