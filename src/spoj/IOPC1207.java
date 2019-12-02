@@ -46,7 +46,9 @@ public class IOPC1207 {
                         Integer gx = query(0, Nx, headx, x1, x2).green;
                         Integer gy = query(0, Ny, heady, y1, y2).green;
                         Integer gz = query(0, Nz, headz, z1, z2).green;
-                        System.out.println();
+                        Integer num = gx*(y2-y1)*(z2-z1) + gy*(x2-x1)*(z2-z1) + gz*(x2-x1)*(y2-y1)
+                                - (gx*gy*(z2-z1) + gx*gz*(y2-y1) + gy*gz*(z2-z1)) + gx*gy*gz;
+                        System.out.println(num);
                         break;
                     }
                 }
@@ -85,9 +87,11 @@ public class IOPC1207 {
             return node.green;
         }
         if (idx1 > (start + end)/2) {
-            return update((start + end)/2 + 1, end,node.right, idx1, idx2);
+            node.green = update((start + end)/2 + 1, end,node.right, idx1, idx2);
+            return node.green;
         } if (idx2 <= (start + end)/2) {
-            return update(start, (start + end)/2, node.left, idx1, idx2);
+            node.green =  update(start, (start + end)/2, node.left, idx1, idx2);
+            return  node.green;
         }
         Integer left = update(start, (start + end)/2, node.left, idx1, (start + end)/2);
         Integer right = update((start + end)/2 + 1, end ,node.right, (start + end)/2 + 1, idx2);
