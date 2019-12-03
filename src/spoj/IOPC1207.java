@@ -47,9 +47,13 @@ public class IOPC1207 {
                         Integer gy = query(0, Ny, heady, y1, y2).green;
                         Integer gz = query(0, Nz, headz, z1, z2).green;
                         Integer num =
-                                gx*(y2-y1 + 1 - gy)*(z2-z1  + 1 - gz) + gy*(x2-x1 + 1 - gx)*(z2-z1 + 1 - gz) + gz*(x2-x1 + 1 - gx)*(y2-y1 + 1 - gy)
-                                + (gx*gy*(z2-z1 + 1 - gz) + gx*gz*(y2-y1 + 1 - gy) + gy*gz*(z2-z1 + 1 - gz))
-                                + gx*gy*gz;
+                                gx*(y2-y1 + 1 - gy)*(z2-z1  + 1 - gz)
+                                        + gy*(x2-x1 + 1 - gx)*(z2-z1 + 1 - gz)
+                                        + gz*(x2-x1 + 1 - gx)*(y2-y1 + 1 - gy)
+                                        + (gx*gy*(z2-z1 + 1 - gz)
+                                        + gx*gz*(y2-y1 + 1 - gy)
+                                        + gy*gz*(z2-z1 + 1 - gz))
+                                        + gx*gy*gz;
                         System.out.println(num);
                         break;
                     }
