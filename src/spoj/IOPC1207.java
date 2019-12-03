@@ -88,7 +88,7 @@ public class IOPC1207 {
     }
 
     static Integer update(Integer start, Integer end, Node node, Integer idx1, Integer idx2) {
-        if (start == end) {
+        if (start >= end) {
             node.green = node.green == 0? 1: 0;
             return node.green;
         }

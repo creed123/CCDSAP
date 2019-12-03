@@ -51,7 +51,7 @@ public class HelpR2D2 {
     }
 
     static StarNode buildTree(Integer start, Integer end, Integer K) {
-        if (start == end) {
+        if (start >= end) {
             return new StarNode(0, K, 0, null, null);
         }
         StarNode left = buildTree(start, (start + end)/2, K);
