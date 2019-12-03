@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7c300b7f-57d1-484a-b3fd-60f5a27be64b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spoj/IOPC1207.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spoj/IOPC1207.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spoj/HelpR2D2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spoj/HelpR2D2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,49 +197,49 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="547" y="336" key="#debugger.expression.dialog/0.0.1280.800@0.0.1280.800" timestamp="1575283512965" />
-    <state x="0" y="23" width="1280" height="777" key="#xdebugger.evaluate" timestamp="1575367573196">
+    <state x="0" y="23" width="1280" height="777" key="#xdebugger.evaluate" timestamp="1575369489883">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="0" y="23" width="1280" height="777" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1575367573196" />
-    <state width="615" height="262" key="GridCell.Tab.0.bottom" timestamp="1575367950549">
+    <state x="0" y="23" width="1280" height="777" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1575369489883" />
+    <state width="615" height="262" key="GridCell.Tab.0.bottom" timestamp="1575369556509">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1575367950549" />
+    <state width="615" height="262" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1575369556509" />
     <state width="615" height="262" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1575367795304" />
-    <state width="615" height="262" key="GridCell.Tab.0.center" timestamp="1575367950542">
+    <state width="615" height="262" key="GridCell.Tab.0.center" timestamp="1575369556503">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1575367950542" />
+    <state width="615" height="262" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1575369556503" />
     <state width="615" height="262" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1575367795302" />
-    <state width="615" height="262" key="GridCell.Tab.0.left" timestamp="1575367950541">
+    <state width="615" height="262" key="GridCell.Tab.0.left" timestamp="1575369556499">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1575367950541" />
+    <state width="615" height="262" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1575369556499" />
     <state width="615" height="262" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1575367795301" />
-    <state width="615" height="262" key="GridCell.Tab.0.right" timestamp="1575367950544">
+    <state width="615" height="262" key="GridCell.Tab.0.right" timestamp="1575369556508">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1575367950544" />
+    <state width="615" height="262" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1575369556508" />
     <state width="615" height="262" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1575367795303" />
-    <state width="615" height="262" key="GridCell.Tab.1.bottom" timestamp="1575367950356">
+    <state width="615" height="262" key="GridCell.Tab.1.bottom" timestamp="1575369556347">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1575367950356" />
+    <state width="615" height="262" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1575369556347" />
     <state width="615" height="262" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1575367795309" />
-    <state width="615" height="262" key="GridCell.Tab.1.center" timestamp="1575367950354">
+    <state width="615" height="262" key="GridCell.Tab.1.center" timestamp="1575369556345">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1575367950354" />
+    <state width="615" height="262" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1575369556345" />
     <state width="615" height="262" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1575367795307" />
-    <state width="615" height="262" key="GridCell.Tab.1.left" timestamp="1575367950354">
+    <state width="615" height="262" key="GridCell.Tab.1.left" timestamp="1575369556344">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1575367950354" />
+    <state width="615" height="262" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1575369556344" />
     <state width="615" height="262" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1575367795306" />
-    <state width="615" height="262" key="GridCell.Tab.1.right" timestamp="1575367950355">
+    <state width="615" height="262" key="GridCell.Tab.1.right" timestamp="1575369556346">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="615" height="262" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1575367950355" />
+    <state width="615" height="262" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1575369556346" />
     <state width="615" height="262" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1575367795308" />
     <state x="286" y="101" key="NewModule_or_Project.wizard" timestamp="1574939294096">
       <screen x="0" y="0" width="1280" height="800" />
@@ -373,13 +373,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/spoj/HelpR2D2.java</url>
-          <line>12</line>
+          <line>15</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/spoj/HelpR2D2.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="75" />
+          <line>25</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/spoj/HelpR2D2.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="77" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -5,7 +5,10 @@ import java.util.Scanner;
 public class HelpR2D2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Integer T = scanner.nextInt();
+        Integer T = 0;
+        if (scanner.hasNextInt()) {
+          T  = scanner.nextInt();
+        }
         while (T > 0) {
             Integer K = scanner.nextInt();
             Integer n = scanner.nextInt();
@@ -34,7 +37,7 @@ public class HelpR2D2 {
             return null;
         } if (node.left == null && node.right == null) {
             node.maxVal -= v;
-            node.waste= node.waste == 0? 100-v : node.waste -v;
+            node.waste= node.maxVal;
             node.count = node.count == 0 ? 1: node.count;
             return node;
         }
@@ -49,7 +52,7 @@ public class HelpR2D2 {
 
     static StarNode buildTree(Integer start, Integer end, Integer K) {
         if (start == end) {
-            return new StarNode(0, 100, 0, null, null);
+            return new StarNode(0, K, 0, null, null);
         }
         StarNode left = buildTree(start, (start + end)/2, K);
         StarNode right = buildTree((start + end)/2 + 1, end, K);
