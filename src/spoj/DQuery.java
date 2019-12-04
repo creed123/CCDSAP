@@ -25,44 +25,42 @@ public class DQuery {
 
     static DNode buildTree(Integer start, Integer end, List<Integer> list) {
         if (start >= end) {
-            return new DNode(Arrays.asList(list.get(end)), null, null);
+            Set<Integer> set = new HashSet<>();
+            set.add(list.get(end));
+            return new DNode(set, null, null);
         }
         DNode left = buildTree(start, (start + end)/2, list);
         DNode right = buildTree((start + end)/2 + 1, end, list);
         return new DNode(merge(left.distinct, right.distinct), left, right);
     }
 
-    static List<Integer> query(Integer start, Integer end, Integer idx1, Integer idx2, DNode dnode) {
-        if (idx1 == start && idx2 == end) {
+    static Set<Integer> query(Integer start, Integer end, Integer idx1, Integer idx2, DNode dnode) {
+        if (idx1.equals(start) && idx2.equals(end)) {
             return dnode.distinct;
         }
         if (idx1 > (start + end)/2) {
-            return query((start + end)/2 + 1, end, idx1, idx2, dnode.right);
+            return query((start + end) / 2 + 1, end, idx1, idx2, dnode.right);
         }
         if (idx2 <= (start + end)/2) {
-            return query(start, (start + end)/2, idx1, idx2, dnode.left);
+            return query(start, (start + end) / 2, idx1, idx2, dnode.left);
         }
         return merge(query(start, (start + end)/2, idx1, (start + end)/2, dnode.left),
                 query( (start + end)/2 + 1, end, (start + end)/2 + 1, idx2, dnode.right));
     }
 
-    static List<Integer> merge(List<Integer> l1, List<Integer> l2) {
-        List<Integer> list = new ArrayList<>(l2);
-        for (int i = 0; i < l1.size(); i++) {
-            if (!list.contains(l1.get(i))) {
-                list.add(l1.get(i));
-            }
-        }
-        return list;
+    static Set<Integer> merge(Set<Integer> l1, Set<Integer> l2) {
+        Set s = new HashSet(l2);
+        s.addAll(l1);
+        return s;
     }
 }
 
 class DNode {
-    List<Integer> distinct;
+    Set<Integer> distinct;
     DNode left;
     DNode right;
 
-    public DNode(List<Integer> distinct, DNode left, DNode right) {
+    public DNode(Set<Integer> distinct, DNode left, DNode right) {
         this.distinct = distinct;
         this.left = left;
         this.right = right;
