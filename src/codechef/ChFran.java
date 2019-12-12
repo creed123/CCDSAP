@@ -1,7 +1,5 @@
 package codechef;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -12,38 +10,64 @@ public class ChFran {
         if (scanner.hasNextInt()) {
             T = scanner.nextInt();
         }
-        List<Bracks> list = new ArrayList<>();
-        for (int i = 0; i < Math.pow(10, 9); i++) {
-            list.add(new Bracks(0,0));
-        }
         for (int i = 0; i < T; i++) {
+            Bracks[] bracks = new Bracks[(int) Math.round(Math.pow(10, 6))];
+            int maxb = Integer.MIN_VALUE;
             int N = scanner.nextInt();
             for (int j = 0; j < N ; j++) {
                 int a = scanner.nextInt();
                 int b = scanner.nextInt();
-                Bracks bracks = list.get(a);
-                bracks.open += 1;
-                list.set(a, bracks);
-                Bracks bracks1 = list.get(b);
-                bracks1.closed += 1;
-                list.set(b, bracks1);
+                maxb = Math.max(maxb, b);
+                if (bracks[a] == null) {
+                    Bracks bracks1 = new Bracks(0, 0);
+                    bracks1.open +=1;
+                    bracks[a] = bracks1;
+                }
+                else {
+                    Bracks bracks1 = bracks[a];
+                    bracks1.open += 1;
+                    bracks[a] = bracks1;
+                }
+                if (bracks[b] == null) {
+                    Bracks bracks1 = new Bracks(0, 0);
+                    bracks1.closed +=1;
+                    bracks[b] = bracks1;
+                } else {
+                    Bracks bracks1 = bracks[b];
+                    bracks1.closed += 1;
+                    bracks[b] = bracks1;
+                }
             }
             Stack<Integer> stack = new Stack<>();
             boolean closed = false;
-            Integer min = 0;
-            for (int j = 0; j < list.size(); j++) {
-                for (int k = 0; k < list.get(i).closed; k++) {
-                    closed = true;
-                    stack.pop();
-                }
-                for (int k = 0; k < list.get(i).open; k++) {
-                    if (stack.size() < min && closed == true) {
-                        min = stack.size();
+            Integer min = Integer.MAX_VALUE;
+            Integer subsets = 0;
+            for (int j = 1; j <= maxb; j++) {
+                if (bracks[j] != null) {
+                    for (int k = 0; k < bracks[j].open; k++) {
+                        if (closed) {
+                            if (stack.size() == 0) {
+                                subsets ++;
+                            } else if (min > stack.size()) {
+                                min = stack.size();
+                                if (subsets == 0) {
+                                    subsets++;
+                                }
+                            }
+                        }
+                        stack.push(1);
                     }
-                    stack.push(1);
+                    for (int k = 0; k < bracks[j].closed; k++) {
+                        closed = true;
+                        stack.pop();
+                    }
+                    if (subsets > 1) {
+                        min = -1;
+                        break;
+                    }
                 }
             }
-            System.out.println(min);
+            System.out.println(subsets > 1 ? -1:min == Integer.MAX_VALUE ? 0: min);
         }
     }
 }
