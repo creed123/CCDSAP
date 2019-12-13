@@ -12,17 +12,24 @@ public class Subsplay {
             T = scanner.nextInt();
         }
         for (int i = 0; i < T; i++) {
-            Map<Character, Integer> map = new HashMap<>();
+            Map<String, Integer> map = new HashMap<>();
             Integer N = scanner.nextInt();
             String s = scanner.next();
-            for (int j = 0; j < s.length(); j++) {
-                map.put(s.charAt(j), map.getOrDefault(s.charAt(j), 0) + 1);
+            for (int j = 0; j < N; j++) {
+                String str = String.valueOf(s.charAt(j));
+                map.put(str, map.getOrDefault(str, 0) + 1);
+                for (int k = j + 1; k < N ; k++) {
+                    str = str + s.charAt(k);
+                    map.put(str, map.getOrDefault(str, 0) + 1);
+                }
             }
-            Integer sum = 0;
-            for (Integer val : map.values()) {
-                sum+=val/2;
+            Integer max = 0;
+            for (String str : map.keySet()) {
+                if (map.get(str) > 1) {
+                    max = Math.max(max, str.length());
+                }
             }
-            System.out.println(sum);
+            System.out.println(max);
         }
     }
 }

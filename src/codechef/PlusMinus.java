@@ -1,7 +1,6 @@
 package codechef;
+import org.omg.CORBA.INTERNAL;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 public class PlusMinus {
@@ -12,27 +11,18 @@ public class PlusMinus {
             T = scanner.nextInt();
         }
         for (int i = 0; i < T; i++) {
+            Integer count = 0;
+            Integer count_zero = 0;
             Integer N = scanner.nextInt();
-            Map<Integer, Integer> map = new HashMap<>();
             for (int j = 0; j < N; j++) {
-                Integer a = scanner.nextInt();
-                map.put(a, map.getOrDefault(a, 0) + 1);
-            }
-            Double sum = 0d;
-            for (Integer val : map.values()) {
-                if (val > 1) {
-                    sum += fact((long) val) / ((fact(2l)) * fact((long) val - 2));
+                Long a = Long.valueOf(scanner.next());
+                if (a == 2l) {
+                    count ++;
+                } else if (a == 0l) {
+                    count_zero++;
                 }
             }
-            System.out.println(Math.round(sum));
+            System.out.println(count * (count - 1)/2 + count_zero *(count_zero -1)/2);
         }
-    }
-
-    static double fact(Long num) {
-        double fact = 1l;
-        for (int i = 1; i <=num ; i++) {
-            fact = fact * (i % (Math.pow(10, 9) + 7)) % ((Math.pow(10, 9) + 7));
-        }
-        return fact;
     }
 }

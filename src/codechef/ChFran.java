@@ -40,6 +40,7 @@ public class ChFran {
             }
             Stack<Integer> stack = new Stack<>();
             boolean closed = false;
+            boolean subsetExist = false;
             Integer min = Integer.MAX_VALUE;
             Integer subsets = 0;
             for (int j = 1; j <= maxb; j++) {
@@ -48,7 +49,8 @@ public class ChFran {
                         if (closed) {
                             if (stack.size() == 0) {
                                 subsets ++;
-                            } else if (min > stack.size()) {
+                                subsetExist = true;
+                            } else if (min > stack.size() && !subsetExist) {
                                 min = stack.size();
                                 if (subsets == 0) {
                                     subsets++;
@@ -67,7 +69,7 @@ public class ChFran {
                     }
                 }
             }
-            System.out.println(subsets > 1 ? -1:min == Integer.MAX_VALUE ? 0: min);
+            System.out.println(subsets > 1 || subsets == 0 ? -1:min == Integer.MAX_VALUE ? 0: min);
         }
     }
 }
