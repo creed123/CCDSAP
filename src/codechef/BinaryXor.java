@@ -28,13 +28,13 @@ public class BinaryXor {
             Integer l = map1.getOrDefault('1', 0l) > map2.getOrDefault('0', 0l) ? 1: 0;
             for (Long j = Math.min(map1.getOrDefault('1', 0l), map2.getOrDefault('0', 0l)); j >= 0; j--) {
                 if (l.equals(1)) {
-                    if (map2.get('1') - (map1.get('1') - j) >= 0) {
-                        set.add(j + map2.get('1') - (map1.get('1') - j));
+                    if (map2.getOrDefault('1', 0l) - (map1.getOrDefault('1', 0l) - j) >= 0) {
+                        set.add(j + map2.getOrDefault('1', 0l) - (map1.getOrDefault('1', 0l) - j));
                     }
                 }
                 if (l.equals(0)) {
-                    if (map1.get('0') - (map2.get('0') - j) >= 0) {
-                        set.add(j + map1.get('0') - (map2.get('0') - j));
+                    if (map1.getOrDefault('0', 0l) - (map2.getOrDefault('0', 0l) - j) >= 0) {
+                        set.add(j + map1.getOrDefault('0', 0l) - (map2.getOrDefault('0', 0l) - j));
                     }
                 }
             }
