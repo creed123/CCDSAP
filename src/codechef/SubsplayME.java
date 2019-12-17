@@ -53,7 +53,7 @@ public class SubsplayME {
         map.put(String.valueOf(s.charAt(n)), map.getOrDefault(s.charAt(n), 0) + 1);
         if (!recurseMap.getOrDefault(n, false)) {
             findSubsequence(map, s, sub, n + 1, N, recurseMap);
-            findSubsequence(map, s, String.valueOf(s.charAt(\)), n + 1, N, recurseMap);
+            findSubsequence(map, s, String.valueOf(s.charAt(n)), n + 1, N, recurseMap);
         }
         recurseMap.put(n, true);
     }

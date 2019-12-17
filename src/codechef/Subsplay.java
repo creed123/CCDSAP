@@ -1,8 +1,6 @@
 package codechef;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class Subsplay {
     public static void main(String[] args) {
@@ -12,12 +10,16 @@ public class Subsplay {
             T = scanner.nextInt();
         }
         for (int i = 0; i < T; i++) {
-            Map<String, Integer> map = new HashMap<>();
+            Map<String, Integer> map = new LinkedHashMap<>();
             Integer N = scanner.nextInt();
             String s = scanner.next();
-
-            Map<Integer, Boolean> recurseMap = new HashMap<>();
-            findSubsequence(map, s, new String(), 0, N, recurseMap);
+            for (int j = N -1; j >=0; j--) {
+                List<String> keys  = new ArrayList<>(map.keySet());
+                for (String str : keys) {
+                    map.put(s.charAt(j) + str, map.getOrDefault(s.charAt(j) + str, 0) + 1);
+                }
+                map.put(String.valueOf(s.charAt(j)), map.getOrDefault(String.valueOf(s.charAt(j)), 0) + 1);
+            }
             Integer max = 0;
             for (String str : map.keySet()) {
                 if (map.get(str) > 1) {
@@ -32,21 +34,4 @@ public class Subsplay {
 
     }
 
-    static void findSubsequence(Map<String, Integer> map, String s, String sub, Integer n , Integer N, Map<Integer, Boolean> recurseMap) {
-        if (n >= N) {
-            return;
-        }
-        if (!sub.isEmpty()) {
-            map.put(sub + s.charAt(n), map.getOrDefault(sub + s.charAt(n), 0) + 1);
-            if (!recurseMap.getOrDefault(n, false)) {
-                findSubsequence(map, s, sub + s.charAt(n), n + 1, N, recurseMap);
-            }
-        }
-        map.put(String.valueOf(s.charAt(n)), map.getOrDefault(s.charAt(n), 0) + 1);
-        if (!recurseMap.getOrDefault(n, false)) {
-            findSubsequence(map, s, sub, n + 1, N, recurseMap);
-            findSubsequence(map, s, String.valueOf(s.charAt(n)), n + 1, N, recurseMap);
-        }
-        recurseMap.put(n, true);
-    }
 }
