@@ -29,17 +29,19 @@ public class PurifIt {
             Integer center = unique.length()/2;
             Integer count = 0;
             while (unique.length() > 3) {
-                Set<Integer> indexes = new TreeSet<>();
+                Integer left = Integer.MIN_VALUE, right = Integer.MAX_VALUE;
                 for (int j = center - 3; j <= center; j++) {
                     if (j < 0) {
                         continue;
                     }
                     Integer found = findMinIdx(map, j);
-                    if (!found.equals(center)) {
-                        indexes.add(found);
+                    if (center > found) {
+                        left = left < found ? found : left;
+                    } else {
+                        right = right > found ? found : right;
                     }
                 }
-                if (indexes.stream().map(map::get).reduce(Integer::sum).orElse(0) >= map.get(center) || indexes.isEmpty()) {
+                if (map.getOrDefault(left, 0) + map.getOrDefault(right, 0) >= map.get(center)) {
                     count += map.get(center);
                     map.put(center - 1, map.getOrDefault(center -1, 0) + map.getOrDefault(center + 1, 0));
                     for (int k = center; k < unique.length() - 2; k++) {
@@ -56,7 +58,7 @@ public class PurifIt {
                     }
                     center = unique.length()/2;
                 } else {
-                    center = indexes.iterator().next();
+                    center = left != Integer.MIN_VALUE? left: right;
                 }
             }
             System.out.println(count);
