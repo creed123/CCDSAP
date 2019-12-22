@@ -37,7 +37,7 @@ public class PurifIt {
                     Integer found = findMinIdx(map, j);
                     if (center > found) {
                         left = left < found ? found : left;
-                    } else {
+                    } else if (center > right) {
                         right = right > found ? found : right;
                     }
                 }
