@@ -35,25 +35,31 @@ public class PurifIt {
                         continue;
                     }
                     Integer found = findMinIdx(map, j);
-                    if (center > found) {
+                    if (center >= found) {
                         left = left < found ? found : left;
-                    } else if (center > right) {
+                    } else {
                         right = right > found ? found : right;
                     }
                 }
                 if (map.getOrDefault(left, 0) + map.getOrDefault(right, 0) >= map.get(center)) {
                     count += map.get(center);
-                    map.put(center - 1, map.getOrDefault(center -1, 0) + map.getOrDefault(center + 1, 0));
-                    for (int k = center; k < unique.length() - 2; k++) {
-                        map.put(k, map.getOrDefault(k+2, 0));
-                    }
-                    map.remove(unique.length() - 1);
-                    map.remove(unique.length() - 2);
+
                     if (center <= 0) {
+                        for (int k = center; k <= unique.length() - 2; k++) {
+                            map.put(k, map.getOrDefault(k+1, 0));
+                        }
+                        map.remove(unique.length() - 1);
                         unique = unique.substring(center + 1);
                     } else if (center >= unique.length() - 1) {
+                        map.remove(center);
                         unique = unique.substring(0, center);
                     } else {
+                        map.put(center - 1, map.getOrDefault(center -1, 0) + map.getOrDefault(center + 1, 0));
+                        for (int k = center; k < unique.length() - 2; k++) {
+                            map.put(k, map.getOrDefault(k+2, 0));
+                        }
+                        map.remove(unique.length() - 1);
+                        map.remove(unique.length() - 2);
                         unique = unique.substring(0, center - 1) + unique.substring(center + 1);
                     }
                     center = unique.length()/2;
