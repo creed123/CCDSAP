@@ -1,5 +1,7 @@
 package codechef;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class XorIt {
@@ -10,6 +12,7 @@ public class XorIt {
             T = scanner.nextInt();
         }
         for (int i = 0; i < T; i++) {
+            Map<Long, Long> map = new HashMap<>();
             Long left = Long.valueOf(scanner.next());
             Long right = Long.valueOf(scanner.next());
             long sum = 0;
@@ -17,6 +20,8 @@ public class XorIt {
                 if (j % 2 ==1 && j!=1) {
                     sum+=j-1;
                     continue;
+                } if (map.containsKey(j/2)) {
+                    sum += map.get(j/2) * 2;
                 }
                 Long num = j;
                 Long count = 0l;
@@ -38,6 +43,7 @@ public class XorIt {
                 } else {
                     sum+=B;
                 }
+                map.put(j, sum);
             }
             System.out.println(sum);
         }
