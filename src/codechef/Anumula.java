@@ -16,12 +16,7 @@ public class Anumula {
                 al.add(num);
             }
             al.sort(Comparator.naturalOrder());
-            Collections.sort(al, new Comparator<Integer>() {
-                @Override
-                public int compare(Integer o1, Integer o2) {
-                    return o1 > o2 ? 1: -1;
-                }
-            });
+            al.sort((o1, o2) -> o1 > o2 ? 1 : -1);
             List<Integer> sum = new ArrayList<>();
             List<Integer> globalSum = new ArrayList<>();
             List<Integer> values = new ArrayList<>();
